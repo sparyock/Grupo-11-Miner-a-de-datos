@@ -64,3 +64,23 @@
 2026-02-25 13:57:20,563 - INFO - ✅ Datos extraídos para Cartagena
 2026-02-25 13:57:20,571 - INFO - Datos guardados en data/clima_raw.json
 2026-02-25 13:57:20,632 - INFO - Datos guardados en data/clima.csv
+2026-03-06 19:28:37,335 - INFO - Iniciando ETL para 5 ciudades...
+2026-03-06 19:28:38,374 - INFO - ✅ Datos extraídos para Bogota
+2026-03-06 19:28:38,627 - INFO - 📊 Registro guardado para Bogota
+2026-03-06 19:28:38,998 - ERROR - ❌ Error extrayendo datos para Medellin: 429 Client Error: Too Many Requests for url: https://api.weatherstack.com/current?access_key=734a5aa7a484cacbbe413d0476b195ea&query=Medellin
+2026-03-06 19:28:39,584 - INFO - ✅ Datos extraídos para Cali
+2026-03-06 19:28:39,593 - INFO - 📊 Registro guardado para Cali
+2026-03-06 19:28:39,951 - ERROR - ❌ Error extrayendo datos para Barranquilla: 429 Client Error: Too Many Requests for url: https://api.weatherstack.com/current?access_key=734a5aa7a484cacbbe413d0476b195ea&query=Barranquilla
+2026-03-06 19:28:40,675 - INFO - ✅ Datos extraídos para Cartagena
+2026-03-06 19:28:40,684 - INFO - 📊 Registro guardado para Cartagena
+2026-03-06 19:28:40,701 - INFO - 📈 Métricas guardadas: Extraídos: 3, Guardados: 3, Fallidos: 2
+2026-03-06 19:36:42,629 - INFO - Iniciando ETL para 5 ciudades...
+2026-03-06 19:36:43,839 - INFO - ✅ Datos extraídos para Bogota
+2026-03-06 19:36:44,041 - INFO - 📊 Registro guardado para Bogota
+2026-03-06 19:36:44,409 - ERROR - ❌ Error extrayendo datos para Medellin: 429 Client Error: Too Many Requests for url: https://api.weatherstack.com/current?access_key=734a5aa7a484cacbbe413d0476b195ea&query=Medellin
+2026-03-06 19:36:45,000 - INFO - ✅ Datos extraídos para Cali
+2026-03-06 19:36:45,011 - INFO - 📊 Registro guardado para Cali
+2026-03-06 19:36:45,485 - ERROR - ❌ Error extrayendo datos para Barranquilla: 429 Client Error: Too Many Requests for url: https://api.weatherstack.com/current?access_key=734a5aa7a484cacbbe413d0476b195ea&query=Barranquilla
+2026-03-06 19:36:46,118 - INFO - ✅ Datos extraídos para Cartagena
+2026-03-06 19:36:46,128 - INFO - 📊 Registro guardado para Cartagena
+2026-03-06 19:36:46,141 - INFO - 📈 Métricas guardadas: Extraídos: 3, Guardados: 3, Fallidos: 2
