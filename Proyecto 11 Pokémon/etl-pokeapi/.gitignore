@@ -6,3 +6,4 @@ data/
 logs/
 .vscode/
 .idea/
+.streamlit/secrets.toml

@@ -157,7 +157,7 @@ class PokeETL:
         except Exception as e:
             logger.error(f"Error guardando métricas: {str(e)}")
 
-    def ejecutar(self, cantidad=150):
+    def ejecutar(self, cantidad=1000):
         logger.info(f"Iniciando ETL para {cantidad} Pokémon...")
         for i in range(1, cantidad + 1):
             raw = self.extraer_pokemon(i)
@@ -181,4 +181,4 @@ class PokeETL:
 
 if __name__ == "__main__":
     etl = PokeETL()
-    etl.ejecutar(150)
+    etl.ejecutar(1000)

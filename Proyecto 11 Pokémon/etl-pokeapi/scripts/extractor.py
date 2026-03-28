@@ -149,7 +149,7 @@ class PokeExtractor:
             logger.error(f"Error procesando datos: {str(e)}")
             return None
 
-    def ejecutar_extraccion(self, cantidad=150):
+    def ejecutar_extraccion(self, cantidad=1000):
         """Extrae los primeros N Pokémon"""
         datos = []
         logger.info(f"Iniciando extracción de {cantidad} Pokémon...")
@@ -166,7 +166,7 @@ class PokeExtractor:
 if __name__ == "__main__":
     try:
         extractor = PokeExtractor()
-        datos = extractor.ejecutar_extraccion(150)
+        datos = extractor.ejecutar_extraccion(1000)
 
         with open('data/pokemon_raw.json', 'w') as f:
             json.dump(datos, f, indent=2, ensure_ascii=False)
