@@ -18,7 +18,8 @@ st.set_page_config(
     layout="wide",
     initial_sidebar_state="expanded"
 )
-
+import scripts.database as _db
+st.write("HOST:", _db.cfg['host'])
 st.markdown("""
 <style>
     body { background-color: #0d0d1a; }
